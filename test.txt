@@ -1,1 +1,194 @@
+==================== OSNOVI NA HTML I CSS ================
 
+HTML:
+
+HTML е кратенка за Hypertext Markup Language. Тоа е стандарден јазик за 
+означување што се користи за креирање веб-страници и други видови онлајн 
+содржини што може да се прикажат на интернет. HTML им овозможува на 
+програмерите да ја структурираат содржината на веб-страница со дефинирање 
+на наслови, параграфи, списоци, врски, слики и други елементи. Исто така, 
+овозможува користење на листови со стилови и јазици за скриптирање како 
+CSS и JavaScript за контрола на изгледот и однесувањето на веб-страниците.
+
+HTML е составен од серија ознаки затворени во аголни загради. Ознаките ја 
+дефинираат структурата и содржината на веб-страницата и може да вклучуваат 
+атрибути кои специфицираат дополнителни информации за некој елемент. На 
+пример, ознаката <img> се користи за вградување слика на веб-страница, а 
+атрибутот src ја одредува URL-то или патеката на датотеката на сликата што 
+треба да се прикаже.
+
+
+
+
+HTML TAGS:
+
+- <!DOCTYPE html> - This is the document type declaration for an HTML 
+document, which tells the browser that the document is an HTML file.
+
+- <html></html> - The <html> tag is the top-level element of an HTML 
+document and represents the root of the document tree. It is used to 
+enclose all other elements in the document and provides a container for 
+the head and body sections of the document.
+
+- <head></head> - The <head> tag is a container element in HTML that 
+contains metadata about the web page, such as the title of the page, links 
+to external stylesheets, scripts, and other important information that is 
+not directly displayed on the web page. The <head> tag is located between 
+the <html> and <body> tags of an HTML document.
+
+- <title></title> - The <title> tag is an HTML element that defines the 
+title of a web page. It is located within the <head> section of an HTML 
+document and is used to provide a concise and descriptive title for the 
+page.
+
+- <meta/> - The <meta> tag is an HTML element used to provide metadata 
+about a web page. Metadata is information about a web page that is not 
+visible on the page itself, but is used by browsers, search engines, and 
+other software to understand and process the content of the page. The 
+<meta> tag can be used to specify various types of metadata, such as the 
+page's title, author, description, keywords, character encoding, and more.
+
+- <body></body> - The <body> tag is an HTML element that defines the 
+visible content of a web page. The <body> tag is located within the <html> 
+tag and contains all the content that will be displayed on the page, 
+including text, images, links, videos, and other media.
+
+- <p></p> - The <p> tag is an HTML element used to define paragraphs of 
+text on a web page. It stands for "paragraph" and is used to create a 
+block of text that is separated from surrounding content, typically with 
+blank lines above and below it.
+
+- <h1></h1> - The <h> tag is an HTML element used to create headings or 
+headings of different levels on a web page. The "h" stands for "heading", 
+and the number following the "h" indicates the level of the heading, where 
+1 is the highest level and 6 is the lowest level.
+
+- <img /> - The <img> tag is an HTML element used to insert an image into 
+a web page. It is a self-closing tag, which means it does not require a 
+closing tag.
+
+
+Дополнителни материјали:
+
+HTML
+- https://www.w3schools.com/html/default.asp
+- https://www.codecademy.com/learn/learn-html 
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+
+Shortcuts, Extensions and basic setup for VSC
+- https://www.youtube.com/watch?v=fJEbVCrEMSE
+
+
+
+================== Втор Час ==================
+
+HTML TAGS:
+
+- <a/> - The <a> tag is an HTML element used to create a hyperlink or a 
+link to another web page, a file, or a location on the same page. The "a" 
+stands for "anchor", and it is also known as the anchor tag.
+
+- <ol></ol> - The <ol> tag is used to create an ordered list, which is a 
+list of items where each item is numbered or ordered in some way.
+
+- <ul></ul> - The <ul> tag, on the other hand, is used to create an 
+unordered list, which is a list of items where each item is not ordered or 
+numbered in any particular way. 
+
+- <li></li> - The <li> tag is an HTML element used to represent a single 
+item in a list. It stands for "list item" and is used within <ol> (ordered 
+list) or <ul> (unordered list) tags to define each individual item in the 
+list.
+
+- <header></header> - The <header> tag is an HTML element used to define 
+the header section of a web page or a section of it. The header section 
+typically contains introductory content, such as a logo, a navigation 
+menu, a search bar, or other elements that appear at the top of a web 
+page.
+
+- <nav></nav> - The <nav> tag is an HTML element used to define a section 
+of a web page that contains navigation links to other pages or sections of 
+the same page. The <nav> element can be used within the <header> or 
+<footer> tags, or within the <body> tag to define a specific navigation 
+section within the content of the web page.
+
+- <table></table> - The <table> tag is an HTML element used to create 
+tables on a web page. Tables are used to display data in rows and columns, 
+making it easier for users to read and compare information.
+
+- <caption></caption> - The <caption> tag is an HTML element that is used 
+to add a title or a caption to an HTML table. It is usually placed 
+directly below the <table> tag, but before the <thead> tag, if present. 
+The <caption> tag can contain any text, including HTML tags, and can be 
+styled using CSS.
+
+- <thead></thead> - The <thead> tag is an HTML element that is used to 
+define the header section of an HTML table. It is typically used to group 
+together the table's header content, which is usually the first row or 
+rows of the table that contain column headings.
+
+
+
+============== HTML FORMS - cas 3 =================
+
+
+Examples and explanations:
+
+-------- <input type="email" name="e-mail" id="e-mail" /> --------
+
+This line of code creates an <input> element with three attributes: type, name, and id.
+
+The TYPE attribute is set to "email", which indicates that this input is intended for entering an email address. This can provide some validation checks on the entered email address to ensure that it is in a valid format.
+
+The NAME attribute is set to "e-mail", which is the name of the input control that will be sent to the server when the form is submitted. The server can then use this name to identify the email address that was entered.
+
+The ID attribute is set to "e-mail", which provides a unique identifier for the input element. This can be used by JavaScript to access and manipulate the input control.
+
+Overall, this line of code creates an email input control with the name "e-mail" and the ID "e-mail", which can be used for validation and identification purposes.
+
+
+
+HTML TAGS
+
+- <form></form> - The <form> tag is an HTML element used to create a container for interactive input elements, such as text fields, checkboxes, radio buttons, buttons, and more. It is used to collect user input and send it to a server for further processing.
+
+The <form> tag has two main attributes: action and method.
+
+The ACTION attribute specifies where the form data should be sent for processing. This is 
+typically a URL that points to a server-side script that will process the form data.
+
+The METHOD attribute specifies how the form data should be sent to the server. There are two possible values for this attribute: GET and POST. When using GET, the form data is appended to the URL as a query string, while with POST, the form data is sent in the request body.
+
+- <input /> - The <input> element is a fundamental form element in HTML used to create a variety of form controls. It is a self-closing tag and can include several attributes that define the behavior of the input control, such as type, name, value, placeholder, and more.
+
+The most common input types are:
+
+text: used to create a single-line text input field
+password: used to create a single-line password input field
+email: used to create a single-line email input field
+checkbox: used to create a checkbox control
+radio: used to create a radio button control
+submit: used to create a submit button control
+
+- <label></label> - The <label> tag is another fundamental form element in HTML that is used to associate a label with an input control. The label is used to describe the purpose of the input control, and is typically displayed alongside the control.
+
+-<button></button> - The <button> tag is used to create a clickable button on a web page. The button can perform different actions when clicked, such as submitting a form or triggering some JavaScript function. The <button> tag can contain text or other HTML elements, such as images or icons, to provide additional context or visual cues to the user.
+
+- <textarea></textarea> The <textarea> tag in HTML is used to create a multi-line input field where users can enter text. Unlike the <input> tag which is used for single-line inputs, the <textarea> tag can accept multiple lines of text.
+
+- <select></select> - The <select> tag in HTML is used to create a drop-down list of options that users can choose from. It is often used in HTML forms to allow users to select one or more options from a list.
+
+- <option> - The <option> tag is used to define the options that appear in a drop-down list created with the <select> tag. Each option is defined with an <option> tag, and the content of the tag is the text that appears in the list for that option.
+
+- <optgroup></optgroup> - The <optgroup> tag is used to group related options in a drop-down list created with the <select> tag. It is a child element of the <select> tag and can contain one or more <option> tags. 
+
+-<fieldset></fieldset> - The <fieldset> tag is an HTML container element that is used to group related form elements together. It can be used to visually separate the form fields into logical sections or categories.
+
+- <div></div> - The div tag is used to create a block-level container element that groups other HTML elements together. It is used to divide sections of a webpage into distinct and meaningful parts, such as header, navigation, content, and footer. The div tag has a default display property of block, which means it starts on a new line and takes up the entire width available. The div tag is often used with CSS styling to apply a common style to multiple elements within the container.
+
+- <span></span> - The span tag is used to create an inline-level container element that is used to group inline-level elements together. It is often used to apply styles to a small portion of text, such as a single word or phrase within a paragraph. The span tag has a default display property of inline, which means it does not start on a new line and only takes up the width of its contents.
+
+
+За проверка на знаењето:
+HTML Quiz: https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML 
+HTML Exercises with solution: https://www.w3resource.com/html-css-exercise/basic/ 
