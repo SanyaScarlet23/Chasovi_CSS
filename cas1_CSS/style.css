@@ -1,0 +1,72 @@
+/* Universal  Selector za margina na site podglavija */
+
+*{
+    margin: 0;
+}
+
+
+
+
+/* Element Selector */
+a {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-decoration: none;
+
+}
+
+p {
+    color:blueviolet;
+}
+
+/* Class Selector */
+
+.paragraph {
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+
+}
+
+.text-class {
+    color: cyan;
+}
+/* ID Selector pomegju .text-class i ID selectort #text kje na web ID sel. koj kje se gleda IMA Prednost*/
+
+#text {
+     border: 3px dotted pink;
+}
+
+
+/* ID ima Prednost t.e pomegju #special-div I clasata .div-element _ 
+No sekad izbirame da imame samo eden vid na selektor*/
+
+.div-element{
+    width: 300px;
+    height: 80px;
+    border: 2px solid green;
+    margin: 10px;
+}
+
+#special-div{
+    background-color: black;
+}
+
+/* Grouping Selectors_Duplikat na cod vo eden element na div .div-element i .div-element-2*/
+/* 
+.div-element-2{
+    border: 2px solid green;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+}
+*/
+
+.div-element-2, .div-element {
+    
+    border: 2px solid green;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+
+}

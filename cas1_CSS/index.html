@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>predavanje prv chas CSS</title>
-        <meta charset="utf-8" />
+        <meta chatset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style2.css" />
+        <title>Prv chas CSS</title>
+
+        <!-- Internal CSS -->
+        <style>
+            p{
+                font-size: 40px;
+                color: blue;
+                border: 2px solid green;
+                width: 500px;
+            }
+
+        </style>
+
     </head>
 
     <body>
-        <h1>Prva glava</h1>
+        <!--Inline CSS NAJMALKU SE PREPORACHUVA-->
+        <h1 style="font-size: 50px; color: red;">Heading</h1>
+        <!--Dolu vo p tag font-size: 20px e so pogolema vazhnosto od stye vo head shto e-->
+        <p>This is simple paragraph</p>
+        <a href="#">Link</a>
+        <p class="paragraph">Another simple paragraph</p>
+        <p id="text">another one</p>
+
+        <div class="div-element"></div>
+        <div class="div-element" id="special-div"></div>
+        <div class="div-element"></div>
+
+        <div class="div-element-2"></div>
+
+        <span>Span Element</span>
+
     </body>
 </html>
