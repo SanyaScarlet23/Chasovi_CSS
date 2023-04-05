@@ -1,0 +1,57 @@
+*{
+    /* box-sizing: content-box; ovaa i da ne go stavime ova e defult-tna vrednost proveri inspect on wab, odnosno
+    Total width: 160px +2*20px + 2*8px = 216px
+    Total height: 80px + 2*20px +2*8px 136px */
+    box-sizing: border-box; /* gi sobira border + padding + content za box-ot 
+    vo div elementot na html zadadovme id koj e box i e so definirani pobarani velichini zatoa ni go treba box sizing */
+    
+
+}
+
+
+.h1{
+    width: 400px;
+    border: 5px solid brown; 
+    text-align: center;
+    /* margin: 50px; ova e skratena verzija podolu e kako mozheme od site strani ili pak margin: 50px 150px; top i bottom*/
+   /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    /* pozioniranje po horizontala e sledna: margin: 0 auto; */
+    margin: 40px auto;
+    padding: 20px;
+    
+}
+
+#box{
+    width: 160px;
+    height: 80px;
+    padding: 20px;
+    border: 8px solid red;
+    background-color: yellow;
+    
+}
+
+#box-big{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 8px solid orange;
+    background-color: blue;
+
+    /*
+              This is for conten-box
+       Total width: 400px + 2*20px + 2*10px = 460px
+       Total height: 200px + 2*20px + 2*10px = 260
+       Content box width: 400px
+       Content box height: 200px
+
+
+       Total width: 400px;
+       Total height: 200px
+       Content box width: 400px - 2*20px - 2*10px = 340px;
+       Content box height: 200px - 2*20px -2*10px;
+    */
+    
+}
