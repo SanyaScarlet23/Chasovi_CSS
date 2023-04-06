@@ -1,0 +1,29 @@
+/*  box-sizing: content-box;
+     Content box width: 345px 
+     Content box height: 75px 
+     Total width: 345px + 2*5px + 2*12px = 379px
+     Total height: 75px + 2*0px + 2*12px = 99px */
+
+#prv_pravoagolnik{
+    width: 345px;
+    height: 75px;
+    border: 12px solid black;
+    padding: 0 5px 0 5px;
+    background-color: lightblue;
+    box-sizing:content-box;
+}
+
+/*  box-sizing: border-box;
+     Total width: 345px 
+     Total height: 75px 
+     Content box width: 345px - 2*5px - 2*12px = 311px
+     Content box height: 75px - 2*0px - 2*12px = 51px */
+
+     #vtor_pravoagolnik{
+        width: 345px;
+        height: 75px;
+        border: 12px solid black;
+        padding: 0 5px 0 5px;
+        background-color: lightblue;
+        box-sizing: border-box;
+     }
