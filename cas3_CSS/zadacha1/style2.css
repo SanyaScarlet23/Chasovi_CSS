@@ -1,0 +1,30 @@
+.card-main2{
+    float: left;
+    width: 300px;
+    height: 500px;
+    box-sizing: border-box;
+    padding-top: 148.6px;
+    padding-bottom: 148.6px;
+    border-radius: 7px;
+    border: 6px solid black;
+    margin: 0 auto;
+    background-image: url(https://images.unsplash.com/photo-1562016600-ece13e8ba570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXJ8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tekst{
+    margin: 0 auto;
+    background-color: white;
+    }
+    
+h3{
+  text-align: center;
+  font-size: 27px;
+    }    
+
+p{
+  text-align: center;
+  font-size: 18px;
+    }    
+    
