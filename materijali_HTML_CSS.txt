@@ -192,3 +192,167 @@ submit: used to create a submit button control
 За проверка на знаењето:
 HTML Quiz: https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML 
 HTML Exercises with solution: https://www.w3resource.com/html-css-exercise/basic/ 
+
+=============== CSS ================
+
+--------- What is CSS? -----------
+
+CSS stands for Cascading Style Sheets. It is a language used for 
+describing the presentation and styling of HTML documents. With CSS, you 
+can control the layout, fonts, colors, spacing, and other visual aspects 
+of your web pages.
+
+- CSS is the language we use to style an HTML document.
+- CSS describes how HTML elements should be displayed.
+
+
+Three Ways to Insert CSS:
+- External CSS
+- Internal CSS
+- Inline CSS
+
+
+-------- CSS Selectors ---------
+
+-Element Selector - The element selector is used to target HTML elements 
+based on their tag name. For example, if you want to apply styles to all 
+the paragraph elements on a web page, you can use the element selector 
+"p".
+
+-Id Selector - The ID selector is a CSS selector that is used to target an 
+HTML element based on its unique ID attribute. An ID is a unique 
+identifier that can be assigned to an element in HTML, and it is used to 
+differentiate that element from others on the page. The ID selector is 
+denoted by the "#" symbol followed by the ID name.
+
+-Class Selector - The class selector in CSS is used to select elements 
+with a specific class attribute. It allows you to apply a specific style 
+to a group of elements based on a shared class name. To define a class 
+selector, you use a period (.) followed by the class name. Using classes 
+makes it easy to apply consistent styles to groups of elements throughout 
+your website. You can use multiple classes on a single element, and you 
+can combine class selectors with other selectors to create more specific 
+rules.
+
+-The Universal Selector - The Universal Selector in CSS is denoted by the 
+asterisk (*) symbol and selects all elements in an HTML document. It can 
+be used to apply styles to all elements, regardless of their type or 
+location within the HTML document.
+
+-The Grouping Selector - The CSS Grouping Selector allows you to apply the 
+same set of styles to multiple selectors at once. It is denoted by 
+separating multiple selectors by commas. For example, suppose you want to 
+apply the same font family and font color to all h1, h2, and h3 headings.
+
+
+List of the selectors by their precedence:
+
+1. Inline styles (style attribute)
+2. ID selectors 
+3. Class selectors
+4. Attribute selectors
+5. Pseudo-classes
+6. Element selectors
+7. Universal selector
+
+
+================ CSS Vtor Cas ==============
+
+--------- Box Model -----------
+
+The box model is a concept in web design that describes how elements are displayed on a webpage in a rectangular box. It consists of four parts: content, padding, border, and margin.
+
+The content area is the space where the actual content of the element is displayed, such as text or images. 
+The padding is the space between the content and the border, and it can be used to add space within an element. 
+The border is a line that surrounds the content and padding, and it can be used to add visual style or to create 
+a boundary around an element. The margin is the space between the border of an element and other elements on 
+the page, and it can be used to create spacing between elements.
+
+The box model is important to understand when creating and designing web pages, as it allows developers and 
+designers to control the size, position, and spacing of elements on the page. By adjusting the values of 
+the content, padding, border, and margin, designers can create a variety of different layouts and designs.
+
+
+CSS properties:
+
+- Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+1. Named colors: CSS supports 147 named colors, such as "red", "green", "blue", "orange", etc.
+
+2. Hexadecimal colors: A hexadecimal color is a six-digit code that represents the amount of red, green, and blue in a color. 
+For example, #FF0000 is the hexadecimal code for red.
+
+3. RGB colors: RGB stands for red, green, blue. In CSS, you can define colors using the RGB color model, which 
+consists of three values: the amount of red, green, and blue in the color. For example, rgb(255, 0, 0) is the RGB value for red.
+
+4. RGBA colors: RGBA stands for red, green, blue, alpha. The alpha value determines the opacity of the color. 
+For example, rgba(255, 0, 0, 0.5) is a red color with 50% opacity.
+
+5. HSL colors: HSL stands for hue, saturation, and lightness. Hue is a degree on the color wheel, saturation is 
+the amount of gray in the color, and lightness is the amount of white or black in the color. 
+For example, hsl(0, 100%, 50%) is a pure red color.
+
+6. HSLA colors: HSLA stands for hue, saturation, lightness, and alpha. The alpha value determines the opacity of the color. 
+For example, hsla(0, 100%, 50%, 0.5) is a pure red color with 50% opacity.
+
+
+- border - The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+- The border-radius property is used to add rounded borders to an element
+
+- margin is used to create space around elements, outside of any defined borders.
+
+- padding is used to create space around an element's content, inside of any defined borders.
+
+- height and width properties are used to set the height and width of an element.
+
+- outline is a line drawn outside the element's border.
+
+-box-sizing - is a property that controls how the width and height of an element are calculated. By default, the width and height of an element is calculated as the content width and height plus any padding and borders that are applied. This means that if you specify a width or height for an element, any padding or borders that you add will increase the overall width or height of the element.
+
+
+---------- Generic Font Families ------------
+
+In CSS there are five generic font families:
+
+- Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+- Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+- Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+- Cursive fonts imitate human handwriting.
+- Fantasy fonts are decorative/playful fonts.
+
+
+OBJASNUVANJE ZA BOX_SHADOW:
+
+Example: box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+The box-shadow property in CSS is used to add a shadow effect to an element. The values of the property are:
+
+0: This is the horizontal offset of the shadow. In this case, the shadow is not offset horizontally, so it is set to 0.
+
+0: This is the vertical offset of the shadow. In this case, the shadow is not offset vertically, so it is set to 0.
+10px: This is the blur radius of the shadow. The higher the value, the more blurred the shadow will appear. In this case, the blur radius is set to 10px.
+
+5px: This is the spread radius of the shadow. The higher the value, the more the shadow will spread out. In this case, the spread radius is set to 5px.
+
+rgba(0, 0, 0, 0.2): This is the color and transparency of the shadow. In this case, the shadow color is black (0, 0, 0) and the opacity is set to 0.2.
+So, this code will add a black shadow to an element with a blur radius of 10px, a spread radius of 5px, and a transparency of 0.2.
+
+
+--------- CSS Properties --------------
+
+- background-image - sets one or more background images for an element. The background image can be a URL pointing to an image file, or it can be a gradient, which is a CSS image created by a series of color stops.
+
+- background-repeat - specifies how the background image is repeated within the background of an element. It accepts four different values: repeat, repeat-x, repeat-y, no-repeat.
+
+- background-size - The background-size property in CSS specifies the size of the background images. It determines how the background image will be sized and displayed within its container. 
+
+- background-position - The background-position property in CSS is used to set the starting position of a background image or background color within an element. It takes two values, which can be either keywords or length values, and specifies where the background image or color should start from.
+
+- overflow - The overflow property in CSS is used to control what happens to the content that overflows its containing element. It specifies whether to clip the content or to add scrollbars when the content exceeds the size of the container. It can be used on any element, but it is most commonly used on containers such as <div> elements to control the overflow of their child elements.
+
+- float - The CSS float property is used to specify how an element should float or align within its parent container. The float property can take one of three values: left, right, and none.
+When an element is floated, it is taken out of the normal flow of the document and positioned to the left or right of its containing element. Any other content in the document will flow around the floated element.
+
+- box-shadow - Box shadow is a CSS property that allows you to add a shadow effect to an element. The shadow can be customized by adjusting properties such as its color, size, blur, and spread. The box shadow is a way to give depth and dimension to an element on a web page, making it stand out from other elements on the page. It can be used to create visual hierarchy, emphasis, or simply add a decorative effect to a design.
+
