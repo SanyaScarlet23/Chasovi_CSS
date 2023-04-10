@@ -1,0 +1,170 @@
+body{
+    height: 2000px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+.first{
+    background-color: red;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+
+}
+
+.second{
+    background-color: green;
+    /*position: fixed;*/
+}
+
+.thrid{
+    background-color: blue;
+    position: sticky; /* na kolku px kje zastane elementot div koj e blue top property ni definira px*/
+    top: 0;
+}
+
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(157, 94, 205);
+    position: relative; 
+}
+
+.child{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(72, 8, 109);
+    position: absolute; /* ako go nema vo parent position:relativ ovoj child kje go bara narednit element a toa e body vo ovoj sluchaj */
+    /*top: -10px;*/
+    top: 50%; /* top ni kazhuva tuka deka e 50% zemeno od visinata na parent elementot vo nashiot sluchaj 250px*/
+    left: 50%;
+    transform: translate(-50%, -50%); /* ova funkcionira koga imame vo html parent i cjild element, 
+    vo nashiot sluchaj dva div elementi i ne zavisi od position dali ima ili nema voopshto*/
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: aqua;
+}
+
+.circle-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    z-index: 1;
+    left: 20px; /* mora da imame definirano position relative vo parent elementot
+     odnosno container class-ata za da funkcionira left i top properties*/
+    top: 20px;
+}
+
+.circle-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: bisque;
+    position: absolute;
+    z-index: 2; /* z-index funkcionira samo koga imame position property prethodno definirani*/
+}
+
+/* Vezhba_1 */
+.big-1{
+    width: 700px;
+    height: 700px;
+    background-color: green;
+    position: absolute;
+}
+
+.big-2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(42, 10, 94);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    
+}
+
+.small-3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(106, 205, 206);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    
+}
+
+/* Vezhba_2 */
+
+.purple{
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+}
+
+.yellow{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+.orange{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 3;
+}
+
+/* Vezhba_3 */
+.parent{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(36, 34, 34, 0.125);
+    position: relative;
+}
+
+.child1{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.808);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(0, 0); 
+}
+
+.child2{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.808);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child3{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.808);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0%, 0%);  
+}

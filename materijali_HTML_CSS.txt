@@ -356,3 +356,23 @@ When an element is floated, it is taken out of the normal flow of the document a
 
 - box-shadow - Box shadow is a CSS property that allows you to add a shadow effect to an element. The shadow can be customized by adjusting properties such as its color, size, blur, and spread. The box shadow is a way to give depth and dimension to an element on a web page, making it stand out from other elements on the page. It can be used to create visual hierarchy, emphasis, or simply add a decorative effect to a design.
 
+================ CAS 7 ===================
+
+--------- CSS Properties -----------
+
+- position - the position property in CSS is used to set the positioning of an element. There are five possible values for the position property:
+
+1. static: This is the default value. It means the element will be positioned according to the normal flow of the page.
+
+2. relative: This value positions the element relative to its normal position in the page.
+
+3. absolute: This value positions the element relative to its nearest positioned ancestor (i.e. an element with position set to relative, absolute, or fixed).
+
+4. fixed: This value positions the element relative to the browser window. The element remains in the same position even if the page is scrolled.
+
+4. sticky: This value positions the element based on the user's scroll position. The element will behave like relative until it reaches a certain point, at which point it will become fixed.
+
+- z-index - is a CSS property that controls the vertical stacking order of positioned elements that overlap. It works by assigning a value to the z-index property of an element, with higher values placing the element above elements with lower values. By default, all elements have a z-index of auto, meaning they are layered in the order they appear in the HTML code. However, if an element has a position value of absolute, fixed, or relative, the z-index property can be used to modify its stacking order.
+
+- transform - The transform property allows you to apply transformations to an element, such as rotating, scaling, skewing, or translating it. It can be used to change the appearance and position of an element on a webpage without actually modifying its HTML code.
+
