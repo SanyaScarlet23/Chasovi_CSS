@@ -376,3 +376,36 @@ When an element is floated, it is taken out of the normal flow of the document a
 
 - transform - The transform property allows you to apply transformations to an element, such as rotating, scaling, skewing, or translating it. It can be used to change the appearance and position of an element on a webpage without actually modifying its HTML code.
 
+=============== CAS 8 ===============
+
+Flexbox is a layout module in CSS that provides a more efficient and flexible way to organize, align and distribute space among items in a container. It allows you to easily create complex and responsive layouts without having to use complicated floats or positioning.
+
+The flexbox layout is based on two types of elements: the container and the items. The container is the parent element that holds the items. The items are the child elements that are arranged inside the container.
+
+
+------------ Flexbox Properties -------------
+
+- display: flex - defines the container as a flex container.
+
+- flex-direction - defines the direction in which the items are arranged (row, column, row-reverse, column-reverse).
+
+- justify-content - defines how the items are aligned horizontally in the container (center, flex-start, flex-end, space-between, space-around, space-evenly).
+
+- align-items - defines how the items are aligned vertically in the container (center, flex-start, flex-end, stretch, baseline).
+
+- flex-wrap - defines whether the items should wrap to a new line when there is not enough space in the container (nowrap, wrap, wrap-reverse).
+
+- flex-grow - defines how much the item should grow relative to the other items in the container.
+
+- flex-shrink - defines how much the item should shrink relative to the other items in the container.
+
+- align-self - is used to align a flex item along the cross axis, which is perpendicular to the main axis in a flex container. It works similarly to align-items, which aligns all the flex items along the cross axis as a group, but align-self is used to target a specific flex item and override its alignment.
+
+- order - is used to specify the order in which the flex items are displayed within a flex container. By default, flex items are laid out in the order in which they appear in the source code. However, the order property allows you to change this order, and therefore the visual display order, of the flex items. The order property takes a positive or negative integer value. By default, all flex items have an order value of 0. A positive value for order will push the item to the end of the flex container, while a negative value will push it to the beginning.
+
+
+Additional Materials: 
+1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+2. https://flexboxfroggy.com/ 
+
+
