@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+.logo-img{
+    width: 70px;
+    height: 40px;
+}
+
+.nav-container{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    font-family: sans-serif;
+}
+
+ul{
+    width: 250px; /* samo so shirina no bez justify-content: space-...; nema da se bash uredi menu so listata*/
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /* Najdi nachin kako tochkite da se trgnat !!! a mozhe i so list-style: none;*/
+    
+}
+
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+
