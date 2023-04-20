@@ -341,20 +341,30 @@ So, this code will add a black shadow to an element with a blur radius of 10px, 
 
 --------- CSS Properties --------------
 
-- background-image - sets one or more background images for an element. The background image can be a URL pointing to an image file, or it can be a gradient, which is a CSS image created by a series of color stops.
+- background-image - sets one or more background images for an element. The background image can be a URL pointing to an image file, or it can be a gradient, 
+which is a CSS image created by a series of color stops.
 
 - background-repeat - specifies how the background image is repeated within the background of an element. It accepts four different values: repeat, repeat-x, repeat-y, no-repeat.
 
-- background-size - The background-size property in CSS specifies the size of the background images. It determines how the background image will be sized and displayed within its container. 
+- background-size - The background-size property in CSS specifies the size of the background images. 
+It determines how the background image will be sized and displayed within its container. 
 
-- background-position - The background-position property in CSS is used to set the starting position of a background image or background color within an element. It takes two values, which can be either keywords or length values, and specifies where the background image or color should start from.
+- background-position - The background-position property in CSS is used to set the starting position of a background image or background color within an element. 
+It takes two values, which can be either keywords or length values, and specifies where the background image or color should start from.
 
-- overflow - The overflow property in CSS is used to control what happens to the content that overflows its containing element. It specifies whether to clip the content or to add scrollbars when the content exceeds the size of the container. It can be used on any element, but it is most commonly used on containers such as <div> elements to control the overflow of their child elements.
+- overflow - The overflow property in CSS is used to control what happens to the content that overflows its containing element. 
+It specifies whether to clip the content or to add scrollbars when the content exceeds the size of the container. 
+It can be used on any element, but it is most commonly used on containers such as <div> elements to control the overflow of their child elements.
 
-- float - The CSS float property is used to specify how an element should float or align within its parent container. The float property can take one of three values: left, right, and none.
-When an element is floated, it is taken out of the normal flow of the document and positioned to the left or right of its containing element. Any other content in the document will flow around the floated element.
+- float - The CSS float property is used to specify how an element should float or align within its parent container. 
+The float property can take one of three values: left, right, and none.
+When an element is floated, it is taken out of the normal flow of the document and positioned to the left or right of its containing element. 
+Any other content in the document will flow around the floated element.
 
-- box-shadow - Box shadow is a CSS property that allows you to add a shadow effect to an element. The shadow can be customized by adjusting properties such as its color, size, blur, and spread. The box shadow is a way to give depth and dimension to an element on a web page, making it stand out from other elements on the page. It can be used to create visual hierarchy, emphasis, or simply add a decorative effect to a design.
+- box-shadow - Box shadow is a CSS property that allows you to add a shadow effect to an element. 
+The shadow can be customized by adjusting properties such as its color, size, blur, and spread. 
+The box shadow is a way to give depth and dimension to an element on a web page, making it stand out from other elements on the page. 
+It can be used to create visual hierarchy, emphasis, or simply add a decorative effect to a design.
 
 ================ CAS 7 ===================
 
@@ -370,17 +380,24 @@ When an element is floated, it is taken out of the normal flow of the document a
 
 4. fixed: This value positions the element relative to the browser window. The element remains in the same position even if the page is scrolled.
 
-4. sticky: This value positions the element based on the user's scroll position. The element will behave like relative until it reaches a certain point, at which point it will become fixed.
+4. sticky: This value positions the element based on the user's scroll position. The element will behave like relative until it reaches a certain point,
+ at which point it will become fixed.
 
-- z-index - is a CSS property that controls the vertical stacking order of positioned elements that overlap. It works by assigning a value to the z-index property of an element, with higher values placing the element above elements with lower values. By default, all elements have a z-index of auto, meaning they are layered in the order they appear in the HTML code. However, if an element has a position value of absolute, fixed, or relative, the z-index property can be used to modify its stacking order.
+- z-index - is a CSS property that controls the vertical stacking order of positioned elements that overlap. 
+It works by assigning a value to the z-index property of an element, with higher values placing the element above elements with lower values. 
+By default, all elements have a z-index of auto, meaning they are layered in the order they appear in the HTML code. 
+However, if an element has a position value of absolute, fixed, or relative, the z-index property can be used to modify its stacking order.
 
-- transform - The transform property allows you to apply transformations to an element, such as rotating, scaling, skewing, or translating it. It can be used to change the appearance and position of an element on a webpage without actually modifying its HTML code.
+- transform - The transform property allows you to apply transformations to an element, such as rotating, scaling, skewing, or translating it. 
+It can be used to change the appearance and position of an element on a webpage without actually modifying its HTML code.
 
 =============== CAS 8 ===============
 
-Flexbox is a layout module in CSS that provides a more efficient and flexible way to organize, align and distribute space among items in a container. It allows you to easily create complex and responsive layouts without having to use complicated floats or positioning.
+Flexbox is a layout module in CSS that provides a more efficient and flexible way to organize, align and distribute space among items in a container. 
+It allows you to easily create complex and responsive layouts without having to use complicated floats or positioning.
 
-The flexbox layout is based on two types of elements: the container and the items. The container is the parent element that holds the items. The items are the child elements that are arranged inside the container.
+The flexbox layout is based on two types of elements: the container and the items. The container is the parent element that holds the items. 
+The items are the child elements that are arranged inside the container.
 
 
 ------------ Flexbox Properties -------------
@@ -399,9 +416,13 @@ The flexbox layout is based on two types of elements: the container and the item
 
 - flex-shrink - defines how much the item should shrink relative to the other items in the container.
 
-- align-self - is used to align a flex item along the cross axis, which is perpendicular to the main axis in a flex container. It works similarly to align-items, which aligns all the flex items along the cross axis as a group, but align-self is used to target a specific flex item and override its alignment.
+- align-self - is used to align a flex item along the cross axis, which is perpendicular to the main axis in a flex container. 
+It works similarly to align-items, which aligns all the flex items along the cross axis as a group, but align-self is used to target a specific flex item and override its alignment.
 
-- order - is used to specify the order in which the flex items are displayed within a flex container. By default, flex items are laid out in the order in which they appear in the source code. However, the order property allows you to change this order, and therefore the visual display order, of the flex items. The order property takes a positive or negative integer value. By default, all flex items have an order value of 0. A positive value for order will push the item to the end of the flex container, while a negative value will push it to the beginning.
+- order - is used to specify the order in which the flex items are displayed within a flex container. 
+By default, flex items are laid out in the order in which they appear in the source code. However, the order property allows you to change this order, 
+and therefore the visual display order, of the flex items. The order property takes a positive or negative integer value. By default, all flex items have an order value of 0. 
+A positive value for order will push the item to the end of the flex container, while a negative value will push it to the beginning.
 
 
 Additional Materials: 
@@ -409,3 +430,41 @@ Additional Materials:
 2. https://flexboxfroggy.com/ 
 
 
+=================== CAS 9 ==================
+
+----------- Responsive Design -----------
+
+Responsive design is an approach to web design that aims to create a website that can adjust and adapt to different screen sizes and devices.
+ This means that the website will look good and be usable on a desktop computer, laptop, tablet, or smartphone, regardless of the screen size or orientation.
+
+Responsive design typically involves using fluid grids, flexible images, and media queries to adjust the layout and content of the website based on the size of the screen.  
+This can include changing the size and position of elements, hiding or showing certain elements, and changing the font size and line height.
+
+The goal of responsive design is to create a consistent user experience across all devices, and to ensure that the website is easy to use and navigate, no matter how it is accessed.
+
+
+----------- Media Query --------------
+
+A media query is a CSS technique that allows styles to be applied based on the characteristics of the device being used to view a web page. 
+In other words, it's a way of specifying different styles for different devices, screen sizes, and orientations. 
+Media queries can be used to create responsive designs that adjust their layout and styling to provide the best possible user experience on different devices,
+ such as smartphones, tablets, laptops, and desktops.
+
+Media queries are defined using the @media rule in CSS, and they allow you to specify different styles for different viewport sizes.
+ For example, you might define a media query that applies a different font size and layout for screens that are smaller than 768 pixels wide. 
+ When a device's screen size matches the conditions specified in the media query, the styles defined within that media query are applied to the page.
+
+Most often, max-width and min-width are used in the media query when developing a responsive web sites.
+
+- max-width: applies styles when the screen width is less than or equal to a specified value.
+- min-width: applies styles when the screen width is greater than or equal to a specified value.
+
+In other words, max-width is used to target smaller screens, while min-width is used to target larger screens.
+
+For example, if you want to apply a specific style to screens that are 768px wide or smaller, you would use max-width: 768px. 
+If you want to apply a style to screens that are 769px or wider, you would use min-width: 769px.
+
+
+Additional materials:
+1. https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+2. https://web.dev/learn/design/

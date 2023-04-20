@@ -1,3 +1,13 @@
+/*1. Да се направи елемент во форма на правоаголник кој што има ширина од 
+345 пиксели и висина
+од 75 пиксели. Позадинската боја треба да биде lightblue, border-ot да има 
+црна боја со ширина од 12 пиксели, додека пак padding-ot да биде поставен 
+само на левата и десната страна. Да се пресмета
+вкупната ширина и висина и ширината и висината на содржината на 
+елементот(content box width, content box height) при употребува на 
+box-sizing: content-box и box-sizing: border-box
+*/
+
 /*  box-sizing: content-box;
      Content box width: 345px 
      Content box height: 75px 
