@@ -468,3 +468,60 @@ If you want to apply a style to screens that are 769px or wider, you would use m
 Additional materials:
 1. https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
 2. https://web.dev/learn/design/
+
+
+
+=================== CAS 10 ==================
+
+----------- Grid -------------
+
+"grid" is a layout system in CSS that allows you to create a two-dimensional grid of rows and columns to place and position elements on a webpage. It provides a powerful and flexible way to design complex, responsive layouts.
+
+With CSS Grid, you can define a layout as a grid container and create rows and columns by specifying their size, position, and alignment. You can place items into the grid using grid-template-rows, grid-template-columns, and grid-template-areas properties.
+
+CSS Grid offers features like auto placement, spanning and placing items across multiple grid tracks, alignment of tracks, sizing and positioning of grid items, and more. It is well-supported in modern browsers and is widely used in web development to create responsive and dynamic layouts.
+
+The main difference between Flexbox and Grid is that Flexbox is designed to work well for one-dimensional layouts, such as a row or a column of items, while CSS Grid is designed for two-dimensional layouts, such as grids or tables.
+
+A Grid Layout must have a parent element with the display property set to grid.
+
+
+----------- Grid Properties -----------
+
+- display: grid - display: grid is a CSS property used to create a grid container, which allows you to create a two-dimensional grid layout for your web page. It is a powerful and flexible layout system that enables you to create complex layouts without having to use complex HTML structures or CSS hacks.
+
+Using display: grid, you can divide your web page into rows and columns, and place content in individual grid cells. This makes it easier to create responsive layouts that can adapt to different screen sizes and device types.
+
+- grid-template-columns - is a CSS property used in Grid layout to define the number and size of columns in a grid container. It allows you to create a grid with a fixed number of columns of specific width or use relative units such as fr, auto, min-content, max-content, and fit-content to define the width of the columns based on the content or available space. The property can take one or more values, separated by spaces or slashes, each representing a column in the grid.
+
+- grid-template-row - is a CSS property used to define the height of the rows in a CSS grid. It specifies a set of row sizes for the grid tracks. This property takes one or more values as input, separated by spaces. Each value represents the height of a grid row.
+
+- grid-gap - is a shorthand property in CSS that is used to define the size of the gap between the rows and columns of a grid. It is a combination of two properties: grid-row-gap and grid-column-gap. It allows you to define the size of the gap between the grid items, making it easier to control the layout and spacing of the grid. The grid-gap property takes two values, one for the row gap and one for the column gap, separated by a space.
+
+
+
+------------- Animations in CSS ----------------
+
+Animations in CSS are a way to add movement and transitions to elements on a web page. They allow you to create dynamic effects that can engage the user and add visual interest to your website. With CSS animations, you can change the properties of an element over a specified duration of time. This can include changing its position, size, color, opacity, and more. Animations can be triggered by a user interaction, such as a hover or click, or they can be set to run automatically. CSS animations are created using keyframes, which define the different stages of the animation and the properties that change at each stage. Animations can also be combined with other CSS features, such as transitions and transforms, to create more complex effects.
+
+@keyframes is a rule in CSS that allows you to create animations by defining a set of keyframes which describe the properties of an element at various stages of an animation. You can use @keyframes to define the starting and ending points of an animation, and any number of intermediate points to create a smooth transition between them.
+
+
+------------ Properties --------------
+
+- transform - is used to apply various graphical transformations to an element. It allows you to rotate, scale, skew, or translate an element, among other things. The transform property can be applied to any element, including images, text, and other HTML elements. It is useful for creating engaging and dynamic user interfaces, animations, and special effects.
+
+
+- transition - in CSS allows you to animate the transition between two states of an element. It specifies the duration, timing function, and delay of the transition effect.
+The transition property can be applied to various CSS properties, such as color, background-color, transform, opacity, and more.
+
+
+Additional materials:
+Grid: 
+1. https://www.w3schools.com/css/css_grid.asp
+2. https://css-tricks.com/snippets/css/complete-guide-grid/
+3. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+Animations:
+1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
+2. https://web.dev/learn/css/animations/

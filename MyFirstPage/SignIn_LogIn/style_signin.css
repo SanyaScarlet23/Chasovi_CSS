@@ -1,0 +1,227 @@
+*{
+    margin 0;
+}
+
+.background-image{  
+    display: flex;
+    justify-content: center;
+    background-image: url("/MyFirstPage/SignIn_LogIn/pic_register/star-citizen-cathcart-system-spaceship-animated-wallpaper.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;     
+}
+
+.nav-container{
+    display: flex;
+    height: 42px;
+    justify-content: space-evenly;
+    gap: 10px; 
+    background-color: none;
+}
+
+.nav-item{
+    width: 170px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    align-self: baseline;
+    align-items: center;
+    cursor: pointer;
+    background-color: none;           
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-color: none;
+    width: 414px;
+    height: 620px;
+    border: 2px solid none;
+    color: white;
+}
+
+h3{
+    padding-top: 30px;
+}
+
+p{
+    font-size: medium;
+}
+
+#email{
+    width: 200px;
+    height: 20px;
+}
+
+#password{
+    width: 200px;
+    height: 20px;
+}
+
+#name-text{
+    width: 200px;
+    height: 20px; 
+}
+
+.checkbox{
+    width: 14px;
+    height: 14px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.creatAccount-btn{
+    width: 200px;
+    border 2px 20 px 0 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.creatAccount-btn:hover{
+    font-size: 14px;
+    color: red;
+}
+
+.fb-btn{
+    width: 200px;
+    border 2px 20 px 0 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.fb-btn:hover{
+    font-size: 14px;
+    color: red;
+}
+
+
+.footer-container{
+    margin: 0;
+    height: 50px;
+    display: flex;
+    gap:1px;
+    background-color: none;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 50px;
+    width: 250px;
+    margin: 0;
+    text-align: start;
+    flex-direction: column;
+    font-size: 7px;
+    background-color: none;    
+}
+
+.logo-img{
+    width: 15px;
+    height: 15px;   
+    padding-left: 10px; 
+    cursor: pointer;
+}
+
+/*Background Image in Body_RESPONSE*/
+@media screen and (max-width: 767px) {
+    .background-image{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .background-image{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .background-image{
+        flex-direction: column;
+    }
+}
+
+/*HEADER_Response*/
+@media screen and (max-width: 767px) {
+    .nav-items {
+        flex-direction: column;
+    }
+
+    a{
+        color: rgb(246, 51, 51);
+        font-size: 10px;     
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /*.nav-container {
+        flex-direction: column;
+    }*/
+
+    .nav-item {
+        flex-direction: column;      
+    }
+   
+    a {
+        font-size: 16px;
+        color: rgb(225, 244, 13);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /*.nav-container{
+        flex-direction: column;
+    }*/
+
+    .nav-item {
+        flex-direction: column;      
+    }
+
+    a{
+        color: rgba(255, 255, 255, 0.762);
+        font-size: 20px;
+        text-decoration: none; 
+    }
+}
+
+
+/*FOOTER RESPONSE*/
+@media screen and (max-width: 767px) {
+    .footer-container{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box{
+        flex-direction: column;
+        color: rgb(246, 51, 51);
+        font-size: 6px;
+    }
+    p{
+        text-align: center;    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-container{
+        flex-direction: row;
+        align-items: center;     
+    }
+
+    .box{
+        font-size: 8px;
+        color: rgb(225, 244, 13);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-container{
+        align-items: center;   
+    }
+    
+    .box{
+        color: rgba(255, 255, 255, 0.762);
+        font-size: 10px;
+    }
+}
